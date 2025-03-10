@@ -1,0 +1,97 @@
+body {
+    background-color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .data-table {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #FFFFFF;  
+    border-radius: 8px;
+    border: 2px solid #347B98;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .data-table thead {
+    background-color: #FC600A; 
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  
+  .data-table tr {
+    border-bottom: 1px solid #347B98; 
+  }
+  
+  .data-table td {
+    padding: 12px;
+    font-size: 16px;
+    color: #092834; 
+  }
+
+  .data-table td:first-child {
+    font-weight: bold;
+  }
+
+  header {
+  background-color: #092834; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.map {
+    max-width: auto;
+    max-height: auto;  
+    
+       
+}
+
+path:hover {
+    fill: rgb(243, 123, 11);
+}
+
+.column-one {
+    width: 66%;
+    display: inline-flexbox;
+    float: left;
+    border: 2px solid;
+    margin-top: 10px;
+    margin-right: 2px;
+    background-color: #1489B8;
+ 
+ 
+ }
+ 
+ .column-two {
+     width: 33%;
+     height: fit-content;
+     display: inline-flexbox;
+     float: right;
+     
+  
+  
+ }
+ 
+ .data-table {
+     width: 100%
+ }
+ 
+ thead {
+     column-span: all;
+ }
+ .data-table td{
+     border: 1px solid;
+     margin: 0;
+     padding: 0;
+     text-align: center;
+ }
+ 
+
